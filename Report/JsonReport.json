@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user Logging in the Webapp",
+        "description": "",
+        "id": "adactin-hotel-booking-app;user-logging-in-the-webapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3552196200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Lauching the url of Adactin Webpage",
+            "match": {
+              "location": "stepdefinition_adactin.user_Lauching_the_url_of_Adactin_Webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184017000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enetering the username",
+            "match": {
+              "location": "stepdefinition_adactin.user_enetering_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127178100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entering the password",
+            "match": {
+              "location": "stepdefinition_adactin.user_entering_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850043000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicking the login button to navigate to search hotel page",
+            "match": {
+              "location": "stepdefinition_adactin.user_clicking_the_login_button_to_navigate_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "user searching for hotel",
+        "description": "",
+        "id": "adactin-hotel-booking-app;user-searching-for-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192491900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user entering location",
+            "match": {
+              "location": "stepdefinition_adactin.user_entering_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167340100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selecting hotel",
+            "match": {
+              "location": "stepdefinition_adactin.user_selecting_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178538900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selecting room type",
+            "match": {
+              "location": "stepdefinition_adactin.user_selecting_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178000900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selecting no of rooms",
+            "match": {
+              "location": "stepdefinition_adactin.user_selecting_no_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123347900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user check in date",
+            "match": {
+              "location": "stepdefinition_adactin.user_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110252600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user check out date",
+            "match": {
+              "location": "stepdefinition_adactin.user_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205724400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selecting no of adults",
+            "match": {
+              "location": "stepdefinition_adactin.user_selecting_no_of_adults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172711200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user selecting no of childs",
+            "match": {
+              "location": "stepdefinition_adactin.user_selecting_no_of_childs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471103000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicking on the search button",
+            "match": {
+              "location": "stepdefinition_adactin.user_clicking_on_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Booking App",
+    "description": "",
+    "id": "adactin-hotel-booking-app",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
